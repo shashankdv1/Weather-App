@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Acknowledgements
+
+I would like to acknowledge the assistance I received from [ChatGPT] (or specify if you prefer to remain anonymous) for their valuable guidance and support during the development of this project.
+## OpenWeatherMap API Key
+
+This project utilizes data from the OpenWeatherMap API. To run the project locally or deploy it, you'll need to obtain an API key from [OpenWeatherMap](https://openweathermap.org/) and include it in your application's configuration.
+
+Please sign up on the OpenWeatherMap website to get your API key. Once you have obtained the API key, you can include it in your application's settings or environment variables.
+
+Replace `your_api_key_here` with the API key you obtained from OpenWeatherMap. Make sure not to share your API key publicly.
+
+After adding the API key to the `.env.local` file, you can access it in your application using `process.env.REACT_APP_API_KEY`.
+
