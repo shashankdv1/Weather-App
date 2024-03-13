@@ -109,14 +109,14 @@ function App() {
                         </div>
                         <div className='box2'>
                         <h1>Wind</h1>
-                        <p>Pressure<BsWind style={{color:'#4169E1', width:'25px',height:'25px', paddingLeft:'5px'}}/>{myData.main.pressure} mb.</p>
+                        <p>Pressure:<BsWind style={{color:'#4169E1', width:'25px',height:'25px', paddingLeft:'5px'}}/>{myData.main.pressure} mb.</p>
                         <p>Speed:<GiWindsock style={{color:'#4169E1', width:'25px',height:'25px', paddingLeft:'5px'}}/>{myData.wind.speed} mph.</p>
                         <p>Direction:<WiWindDeg style={{color:'#4169E1', width:'25px',height:'25px', paddingLeft:'5px'}}/>{myData.wind.deg} deg.</p>                            
                         </div>
                         </div>
                         <div className='lower'>
                         <div className='box3'>
-                        <p><FaTemperatureThreeQuarters style={{color:'#4169E1', width:'50px',height:'50px'}} />{myData.main.feels_like}</p>
+                        <p><FaTemperatureThreeQuarters style={{color:'#4169E1', width:'50px',height:'50px'}} />{Math.round(myData.main.feels_like-273)}°C</p>
                         <p style={{paddingLeft:'50px'}}>feels like.</p>
                         </div>
                         <div className='box4'>
