@@ -70,7 +70,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 ## Acknowledgements
 
-I would like to acknowledge the assistance I received from [ChatGPT] (or specify if you prefer to remain anonymous) for their valuable guidance and support during the development of this project.
+I would like to acknowledge the assistance I received from ChatGPT for its valuable guidance and support during the development of this project.
 ## OpenWeatherMap API Key
 
 This project utilizes data from the OpenWeatherMap API. To run the project locally or deploy it, you'll need to obtain an API key from [OpenWeatherMap](https://openweathermap.org/) and include it in your application's configuration.
