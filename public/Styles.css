@@ -1,0 +1,245 @@
+body{
+    background-image:linear-gradient(180deg,  #007bff,#FFFF);
+    overflow: auto;
+}
+.box1,.box2,.box3,.box4{
+    background-color: #fff;
+}
+.box1 h1
+{
+    font-size: larger;
+   color: #333;
+   padding-left: 150px;
+}
+.box1 p{
+    padding-left: 150px;
+}
+.heading h1{
+    font-size: 24px; 
+    font-weight: bold;
+    color: #333;
+}
+#in{
+    width: calc(40% - 80px); 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+#btn{
+  top: 0;
+  right: 0;
+  width: 40px; 
+  padding: 10px;
+  font-size: 16px;
+  background-image: linear-gradient(to right, #FFFFFF , #FFFFFF);
+  transition: background-image 0.3s ease;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+#btn:hover{
+background-image: linear-gradient(to right, #45a049, #45a049);
+}
+#lbtn{
+    width: calc(20% - 40px); /* Adjust the width to accommodate the button */
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+#lbtn:hover{
+    background-image: linear-gradient(to right, #45a049, #45a049);
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.connect{
+    display: flex;
+    font-size: 20px;
+  
+}
+.Form{
+   margin-top: 25px; 
+}
+.content .box1,.box2,.box3,.box4{
+    border: 1px solid red;
+}
+.footer{
+    margin-top: 100px;
+}
+h1{
+width: auto;
+ font-size: large;
+color: blue;
+margin-top: 0;
+}
+.sidebar {
+    width: 250px;
+    height: 25vh;
+    background: linear-gradient(180deg, #ff416c 0%, #ff4b2b 100%);
+    color: #fff;
+    transition: transform 0.3s ease;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.sidebar-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    
+}
+.sidebar-content a{
+    text-decoration: none;
+    margin-top: 35px;
+}
+#close{
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+  
+  .sidebar.open {
+    display: block;
+  }
+  
+@media(min-width:800px)
+{
+    .sidebar{
+        height: 26vh;
+    }
+    footer h2{
+        padding-left:500px; 
+        }
+        .footer p{
+        padding-left:500px; 
+        }
+        .footer h2{
+            padding-left: 500px;
+        }
+        .upper{
+            display: flex;
+            padding-left: 30%;
+        }
+        .lower
+        {
+            display: flex;
+            padding-left: 30%;
+        }
+        .box1
+        {   display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 300px;
+            height: 310px;
+        }
+        .box2{
+            height: 310px;
+            width: 150px;
+        }
+        .box3,.box4{
+            width: 225px;
+            height: 100px;
+        }
+        h3{
+        padding-left:500px; 
+        }
+        #btn{
+            width: 40px;
+        }
+        #lbtn{
+            width: 100px;
+           
+        }
+        #in{
+            width: calc(40% - 80px);
+            
+        }
+        .Form{
+            padding-left: 30%;
+        }
+        .container{
+            margin-top: 50px;
+        }
+}
+@media(max-width:500px){
+.sidebar
+{
+    height: 26vh;
+}
+.content
+{
+    display: flex;
+    flex-direction:column;
+     
+}
+#btn{
+    width: 40px;
+}
+#lbtn{
+    width: 100px;
+}
+#in{
+    width: calc(60% - 80px);
+}
+
+}
+@media(min-width:501px) and (max-width:799px){
+
+    .footer h2{
+padding-left:250px; 
+}
+.footer p{
+padding-left:250px; 
+}
+.footer h2{
+    padding-left: 250px;
+}
+.content{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+form
+{
+padding-left:250px; 
+}  
+h3{
+padding-left:250px; 
+}
+#btn{
+    width: 40px;
+}
+#lbtn{
+    width: 100px;
+}
+#in{
+    width: calc(80% - 80px);
+}   
+}
+@media(min-height:900px)
+{ 
+    .sidebar{
+        height: 200px;
+    }
+    .footer{
+        margin-top: 400px;
+    }
+    .Form{
+        margin-top: 200px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        }
+        .footer p{
+            padding-left: 200px;
+        }
+}
