@@ -97,7 +97,7 @@ function App() {
 
     return (
         <>
-            <div className="Box">
+ <div className="Box">
                 <Heading />
 
                 <form className='Form'>
