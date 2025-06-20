@@ -18,7 +18,6 @@ function Heading() {
     <button id='close' onClick={closeSidebar}>close</button>
     <div className='sidebar-content'>
     <a href="home">Home</a>
-    <a href='in'>Get Weather</a>
    <a href="https://github.com/shashankdv1">About</a>
     </div>
     </div>
