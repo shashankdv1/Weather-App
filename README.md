@@ -4,7 +4,6 @@ This Project for made for self practice.This is real time weather forecast appli
 
 It is Simple Weather application which has better user interface.
 
-PFBSS for your refrence.
 <img width="1892" height="868" alt="image" src="https://github.com/user-attachments/assets/7dccc1ca-9d17-482c-9ec2-5bc23a0a6f61" />
 
 
